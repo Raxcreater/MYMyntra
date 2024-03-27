@@ -1,0 +1,107 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  shopingfor: {
+    fontSize: 19,
+    color: 'black',
+    marginLeft: 12,
+    fontFamily: 'Poppins-Bold',
+  },
+  circle: {
+    height: 60,
+    width: 60,
+    backgroundColor: 'white',
+    borderRadius: 30,
+    borderColor: 'lightgrey',
+    borderWidth: 1,
+    marginLeft: 12,
+  },
+  add: {
+    fontSize: 45,
+    color: 'lightgrey',
+    textAlign: 'center',
+    justifyContent: 'center',
+  },
+  addText: {
+    fontSize: 16,
+    color: 'lightgrey',
+    marginLeft: 26,
+    justifyContent: 'center',
+  },
+  midview: {
+    height: 40,
+    width: 170,
+    // backgroundColor: 'red',
+    flexDirection: 'row',
+    margin: 12,
+    borderWidth: 0.2,
+    alignItems: 'center',
+    borderColor: 'lightgrey',
+  },
+  ordertext: {
+    fontSize: 14,
+    color: 'black',
+    fontFamily: 'Poppins-SemiBold',
+    marginLeft: 10,
+    marginTop: 5,
+    textAlign: 'center',
+  },
+  midview2: {
+    height: 40,
+    width: 170,
+    // backgroundColor: 'red',
+    flexDirection: 'row',
+    marginTop: 4,
+    marginLeft: 12,
+    borderWidth: 0.2,
+    alignItems: 'center',
+    borderColor: 'lightgrey',
+  },
+  midview2i: {
+    height: 40,
+    width: 170,
+    // backgroundColor: 'red',
+    flexDirection: 'row',
+    marginTop: 4,
+    marginLeft: 24,
+    borderWidth: 0.2,
+    alignItems: 'center',
+    borderColor: 'lightgrey',
+  },
+  mainoption: {
+    flex: 1,
+    marginTop: 16,
+    borderBottomWidth: 0.4,
+    height: 50,
+    backgroundColor: 'white',
+  },
+  optionItem: {
+    // flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  icon: {
+    marginLeft: 12,
+  },
+  optiontext: {
+    fontSize: 17,
+    color: 'black',
+    fontFamily: 'Poppins-SemiBold',
+    marginLeft: 8,
+  },
+  subText: {
+    fontSize: 12,
+    color: 'black',
+    marginLeft: 40,
+  },
+  arrowIcon: {
+    marginRight: 12,
+  },
+  tend: {
+    fontSize: 14,
+    marginLeft: 44,
+    color: 'grey',
+    fontFamily: 'Poppins-SemiBold',
+  },
+});
+export default styles;
